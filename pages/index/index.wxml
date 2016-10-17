@@ -6,6 +6,9 @@
 <view class="title">
   快速上手
 </view>
+<navigator url="../start/start" class="wa-item">
+    get started
+</navigator>
 <view class="title">
   CSS使用
 </view>
