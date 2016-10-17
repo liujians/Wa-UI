@@ -20,6 +20,10 @@
 
 - row&col网格布局
 
+###展示
+
+![](./image/show/Gif_wa.gif)
+
 说明文档请参考[wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
 
 目前每天更新中...
