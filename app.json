@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor":"#eee",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "weapp-ui",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

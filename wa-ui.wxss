@@ -1,0 +1,278 @@
+/* wa-ui
+*  author:liujians
+*  https://github.com/liujians/weapp-ui
+*/
+/*general*/
+page{
+  height: 100%;
+}
+page text{
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Helvetica Neue",Helvetica,'microsoft yahei ui', 'microsoft yahei','simhei',Arial,sans-serif
+}
+page view{
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Helvetica Neue",Helvetica,'microsoft yahei ui', 'microsoft yahei','simhei',Arial,sans-serif
+}
+/*basic*/
+.text-center{
+  text-align: center
+}
+.text-right{
+  text-align: right
+}
+.text-left{
+  text-align: left
+}
+.title{
+    padding:20rpx;
+    font-size: 20px;
+    font-weight: bold;
+}
+.border-basic{
+  border: 1px solid #ddd
+}
+.border-bottom{
+  border-bottom: 1px solid #ddd  
+}
+.border-top{
+  border-top: 1px solid #ddd  
+}
+.border-left{
+  border-left: 1px solid #ddd  
+}
+.border-right{
+  border-right: 1px solid #ddd  
+}
+.padding{
+  padding:20rpx;
+}
+.padding-half{
+  padding:10rpx;
+}
+.wa-space{
+  background: #f5f5f5;
+  display:block;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  margin: -1px;
+  padding:20rpx
+}
+/*list*/
+.wa-list{
+  margin:0;
+  position:relative;
+}
+.wa-item{
+  border: 1px solid #ddd;
+  margin: -1px;  
+  font-size: 16px;
+  display: block;
+  color: #444;
+  padding:20rpx;
+  position:relative;
+}
+.wa-item-ava{
+  padding-left:140rpx;
+  min-height: 80rpx;
+}
+.wa-item-ava .item-img{
+  position:absolute;
+  top:20rpx;
+  left: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.wa-item-ava .item-img-round{
+  position:absolute;
+  top:20rpx;
+  left: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.wa-item-thumbnail-left{
+  padding-left:200rpx;
+  min-height: 160rpx;
+}
+.wa-item-thumbnail-left .item-img{
+  position:absolute;
+  top:20rpx;
+  left: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.wa-item-thumbnail-right{
+  padding-right:200rpx;
+  min-height: 160rpx;
+}
+.wa-item-thumbnail-right .item-img{
+  position:absolute;
+  top:20rpx;
+  right: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+/*button*/
+.wa-button{
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 120rpx;
+    min-height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 38px;
+}
+.wa-button-positive{
+    border-color: #0c63ee;
+    background-color: #387ef5;
+    color: #fff;
+}
+.wa-button-info {
+    border-color: #0a9ec7;
+    background-color: #11c1f3;
+    color: #fff;
+}
+.wa-button-success {
+    border-color: #28a54c;
+    background-color: #33cd5f;
+    color: #fff;
+}
+.wa-button-warning {
+    border-color: #e6b400;
+    background-color: #ffc900;
+    color: #fff;
+}
+.wa-button-danger {
+    border-color: #e42012;
+    background-color: #ef473a;
+    color: #fff;
+}
+.wa-button-dark {
+    border-color: #111;
+    background-color: #444;
+    color: #fff;
+}
+.wa-button-block{
+    width:100%;
+}
+.wa-button-sm{
+    padding: 0 4px;
+    min-width: 90rpx;
+    min-height: 28px;
+    font-size: 12px;
+    line-height: 26px;
+}
+.wa-button-lg{
+    padding: 0 16px;
+    min-width: 150rpx;
+    min-height: 57px;
+    font-size: 20px;
+    line-height: 53px;
+}
+.wa-button:active{
+  background: #ccc;
+  color: #444
+}
+.wa-button-outline{
+    border-color: #b2b2b2;
+    background: transparent;
+    color: #b2b2b2;
+}
+/*input*/
+.wa-input{
+    display: block;
+    height: 34px;
+    color: #111;
+    font-size: 14px;
+    line-height: 16px;
+    flex: 1;
+}
+.wa-input-item{
+  display: flex;
+  padding:20rpx;
+  border: 1px solid #ddd;
+  margin: -1px; 
+}
+.wa-input-label{
+  flex: 0 0 100px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  padding: 4px 0;
+}
+.wa-input-stacked{
+  padding:20rpx;
+}
+.wa-input-stacked input{
+  width: 100%
+}
+/*grid*/
+.wa-row{
+	display: flex;
+  padding: 10rpx;
+  width: 100%;
+}
+.wa-col{
+	flex:1;
+  display: block;
+  padding: 10rpx;
+  width:100%
+}
+.wa-col-10{
+  flex: 0 0 10%;
+  padding: 10rpx;
+  max-width: 10%;
+}
+.wa-col-20{
+  flex: 0 0 20%;
+  padding: 10rpx;
+  max-width: 20%;
+}
+.wa-col-25{
+  flex: 0 0 20%;
+  padding: 10rpx;
+  max-width: 20%;
+}
+.wa-col-33{
+  flex: 0 0 33%;
+  padding: 10rpx;
+  max-width: 33%;
+}
+.wa-col-50{
+  flex: 0 0 50%;
+  padding: 10rpx;
+  max-width: 50%;
+}
+.wa-col-66{
+  flex: 0 0 66%;
+  padding: 10rpx;
+  max-width: 66%;
+}
+.wa-col-75{
+  flex: 0 0 75%;
+  padding: 10rpx;
+  max-width: 75%;
+}
+.wa-col-80{
+  flex: 0 0 80%;
+  padding: 10rpx;
+  max-width: 80%;
+}
+.wa-col-90{
+  flex: 0 0 90%;
+  padding: 10rpx;
+  max-width: 90%;
+}
