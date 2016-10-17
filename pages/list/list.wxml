@@ -12,6 +12,10 @@
       <image class="item-img" src="/image/user.jpg"></image>
       item-ava
     </view>
+    <view class="wa-item wa-item-ava">
+      <image class="item-img-round" src="/image/user.jpg"></image>
+      item-ava
+    </view>
     <view class="wa-item wa-item-thumbnail-left">
       <image class="item-img" src="/image/user.jpg"></image>
       item-thumbnail-left

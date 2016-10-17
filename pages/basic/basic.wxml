@@ -1,11 +1,11 @@
 <view>
-<view class="title text-center">basic</view>
-<view class="text-left">text-left</view>
-<view class="text-center">text-center</view>
-<view class="text-right">text-right</view>
-<view class="title">title</view>
-<view class="border-basic">border-basic</view>
-<view class="padding">padding</view>
-<view class="padding-half">padding-half</view>
-<view class="space"></view>
+    <view class="title text-center">basic</view>
+    <view class="text-left">text-left</view>
+    <view class="text-center">text-center</view>
+    <view class="text-right">text-right</view>
+    <view class="title">title</view>
+    <view class="border-basic">border-basic</view>
+    <view class="padding">padding</view>
+    <view class="padding-half">padding-half</view>
+    <view class="space"></view>
 </view>
