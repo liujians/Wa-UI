@@ -1,0 +1,30 @@
+<view>
+  <view class="wa-row">
+    <view class="wa-col border-basic">bisect</view>
+    <view class="wa-col border-basic">bisect</view>
+    <view class="wa-col border-basic">bisect</view>
+    <view class="wa-col border-basic">bisect</view>
+    <view class="wa-col border-basic">bisect</view>
+    <view class="wa-col border-basic">bisect</view>
+  </view>
+  <view class="wa-row">
+    <view class="wa-col-10 border-basic">10</view>
+    <view class="wa-col-90 border-basic">90</view>
+  </view>
+  <view class="wa-row">
+    <view class="wa-col-20 border-basic">20</view>
+    <view class="wa-col-80 border-basic">80</view>
+  </view>
+  <view class="wa-row">
+    <view class="wa-col-25 border-basic">25</view>
+    <view class="wa-col-75 border-basic">75</view>
+  </view>
+  <view class="wa-row">
+    <view class="wa-col-33 border-basic">33</view>
+    <view class="wa-col-66 border-basic">66</view>
+  </view>
+  <view class="wa-row">
+    <view class="wa-col-50 border-basic">50</view>
+    <view class="wa-col-50 border-basic">50</view>
+  </view>
+</view>

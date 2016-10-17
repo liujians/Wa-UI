@@ -1,59 +1,35 @@
-<!--index.wxml-->
-<!--<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>-->
+
 <scroll-view scroll-y="true" style="height:100%">
-  <view class="wa-list">
-    <view class="wa-item">
-      item
-    </view>
-    <view class="wa-space"></view>
-    <view class="wa-item">
-      item
-    </view>
-    <view class="wa-item wa-item-ava">
-      <image class="item-img" src="/image/user.jpg"></image>
-      item-ava
-    </view>
-    <view class="wa-item wa-item-thumbnail-left">
-      <image class="item-img" src="/image/user.jpg"></image>
-      item-thumbnail-left
-    </view>
-    <view class="wa-item wa-item-thumbnail-right">
-      <image class="item-img" src="/image/user.jpg"></image>
-      item-thumbnail-right
-    </view>
-    <view class="wa-space">space</view>
-    <view><button class="wa-button wa-button-sm">wa-button-sm</button></view>
-    <view><button class="wa-button">wa-button</button></view>
-    <view><button class="wa-button wa-button-lg">wa-button-lg</button></view>
-    <view><button class="wa-button wa-button-positive">wa-button-positive wa-button-outline</button></view>
-    <view><button class="wa-button wa-button-dark wa-button-block">wa-button-dark wa-button-block</button></view>
-  </view>
-  <view class="wa-space">row&col</view>
-  <view class="wa-row">
-    <view class="wa-col border-basic">one</view>
-    <view class="wa-col border-basic">two</view>
-    <view class="wa-col">three</view>
-    <view class="wa-col">four</view>
-  </view>
-  <!--input-stacked-->
-  <view class="title">wa-ui</view>
-  <view class="wa-space">input-stacked</view>
-  <view class="wa-input-stacked">
-    <text class="wa-input-label">phoneNumber:</text>
-    <input class="wa-input" placeholder="phoneNumber" value=""/>
-  </view>
-  <view class="wa-space">input-item</view>
-  <view class="wa-input-item">
-    <text class="wa-input-label">password:</text>
-    <input class="wa-input" placeholder="password" value=""/>
-  </view>
-  
+<view class="padding">
+  Welcome to the weapp-ui wiki!
+</view>
+<view class="title">
+  快速上手
+</view>
+<view class="title">
+  CSS使用
+</view>
+<view class="wa-list">
+  <navigator url="../general/general" class="wa-item">
+    general
+  </navigator>
+  <navigator url="../basic/basic" class="wa-item">
+    basic
+  </navigator>
+  <navigator url="../list/list" class="wa-item">
+    list
+  </navigator>
+  <navigator url="../button/button" class="wa-item">
+    button
+  </navigator>
+  <navigator url="../button-color/button-color" class="wa-item">
+    button-color
+  </navigator>
+  <navigator url="../input/input" class="wa-item">
+    input
+  </navigator>
+  <navigator url="../grid/grid" class="wa-item">
+    grid
+  </navigator>
+</view>
 </scroll-view>

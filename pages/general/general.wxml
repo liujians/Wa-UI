@@ -1,0 +1,5 @@
+<view>
+<view class="title text-center">general</view>
+<view>这是中文文字</view>
+<text>this is English</text>
+</view>

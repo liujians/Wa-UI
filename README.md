@@ -20,10 +20,11 @@
 
 - row&col网格布局
 
+说明文档请参考[wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
 
 目前每天更新中...
 
 欢迎一起学习交流
 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9bcf9f7be59b471456c1feec466dab4d54da7ab35c834b8e821ec17177fb33b3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="前端群居所" title="前端群居所"></a>
 
-测试使用中，有问题或者好的建议请及时联系我
+测试使用中，如果你有好的意见或建议请及时联系我

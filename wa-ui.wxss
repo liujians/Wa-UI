@@ -34,49 +34,39 @@ page view{
 .border-basic{
   border: 1px solid #ddd
 }
-.border-bottom{
-  border-bottom: 1px solid #ddd  
-}
-.border-top{
-  border-top: 1px solid #ddd  
-}
-.border-left{
-  border-left: 1px solid #ddd  
-}
-.border-right{
-  border-right: 1px solid #ddd  
-}
 .padding{
   padding:20rpx;
 }
 .padding-half{
   padding:10rpx;
 }
-.wa-space{
+.space{
   background: #f5f5f5;
   display:block;
   font-weight: 600;
   border: 1px solid #ddd;
-  margin: -1px;
+  margin: -1px 0;
   padding:20rpx
 }
 /*list*/
 .wa-list{
-  margin:0;
+  width:100%;
   position:relative;
 }
 .wa-item{
+  width: 100%;
   border: 1px solid #ddd;
-  margin: -1px;  
+  margin: -1px 0;  
   font-size: 16px;
   display: block;
   color: #444;
   padding:20rpx;
+  box-sizing: border-box;
   position:relative;
 }
 .wa-item-ava{
   padding-left:140rpx;
-  min-height: 80rpx;
+  min-height: 120rpx;
 }
 .wa-item-ava .item-img{
   position:absolute;
@@ -95,7 +85,7 @@ page view{
 }
 .wa-item-thumbnail-left{
   padding-left:200rpx;
-  min-height: 160rpx;
+  min-height: 200rpx;
 }
 .wa-item-thumbnail-left .item-img{
   position:absolute;
@@ -106,7 +96,7 @@ page view{
 }
 .wa-item-thumbnail-right{
   padding-right:200rpx;
-  min-height: 160rpx;
+  min-height: 200rpx;
 }
 .wa-item-thumbnail-right .item-img{
   position:absolute;
@@ -114,6 +104,10 @@ page view{
   right: 20rpx;
   width: 160rpx;
   height: 160rpx;
+}
+.wa-item:active{
+  background: #eee;
+  color: #444
 }
 /*button*/
 .wa-button{
@@ -178,9 +172,9 @@ page view{
 .wa-button-lg{
     padding: 0 16px;
     min-width: 150rpx;
-    min-height: 57px;
+    min-height: 52px;
     font-size: 20px;
-    line-height: 53px;
+    line-height: 48px;
 }
 .wa-button:active{
   background: #ccc;
@@ -204,7 +198,7 @@ page view{
   display: flex;
   padding:20rpx;
   border: 1px solid #ddd;
-  margin: -1px; 
+  margin: -1px 0; 
 }
 .wa-input-label{
   flex: 0 0 100px;
@@ -224,55 +218,66 @@ page view{
 	display: flex;
   padding: 10rpx;
   width: 100%;
+  box-sizing: border-box
 }
 .wa-col{
 	flex:1;
   display: block;
   padding: 10rpx;
-  width:100%
+  width:100%;
+  box-sizing: border-box;
 }
 .wa-col-10{
   flex: 0 0 10%;
   padding: 10rpx;
   max-width: 10%;
+  box-sizing: border-box;
 }
 .wa-col-20{
   flex: 0 0 20%;
   padding: 10rpx;
   max-width: 20%;
+  box-sizing: border-box;
 }
 .wa-col-25{
   flex: 0 0 20%;
   padding: 10rpx;
   max-width: 20%;
+  box-sizing: border-box;
 }
 .wa-col-33{
   flex: 0 0 33%;
   padding: 10rpx;
   max-width: 33%;
+  box-sizing: border-box;
 }
 .wa-col-50{
   flex: 0 0 50%;
   padding: 10rpx;
   max-width: 50%;
+  box-sizing: border-box;
 }
 .wa-col-66{
   flex: 0 0 66%;
   padding: 10rpx;
   max-width: 66%;
+  box-sizing: border-box;
 }
 .wa-col-75{
   flex: 0 0 75%;
   padding: 10rpx;
   max-width: 75%;
+  box-sizing: border-box;
 }
 .wa-col-80{
   flex: 0 0 80%;
   padding: 10rpx;
   max-width: 80%;
+  box-sizing: border-box;
 }
 .wa-col-90{
   flex: 0 0 90%;
   padding: 10rpx;
   max-width: 90%;
+  box-sizing: border-box;
 }

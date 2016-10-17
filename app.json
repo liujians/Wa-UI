@@ -1,6 +1,14 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/general/general",
+    "pages/basic/basic",
+    "pages/list/list",
+    "pages/button/button",
+    "pages/button-color/button-color",
+    "pages/input/input",
+    "pages/grid/grid",
+    "pages/test/test"
   ],
   "window":{
     "backgroundTextStyle":"light",

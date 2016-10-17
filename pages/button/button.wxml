@@ -1,0 +1,11 @@
+<view>
+    <view class="title text-center">button</view>
+    <view class="title">button size</view>
+    <view><button class="wa-button wa-button-sm">wa-button-sm</button></view>
+    <view><button class="wa-button">wa-button</button></view>
+    <view><button class="wa-button wa-button-lg">wa-button-lg</button></view>
+    <view class="title">button outline</view>
+    <view><button class="wa-button wa-button-outline">wa-button-outline</button></view>
+    <view class="title">button block</view>
+    <view><button class="wa-button wa-button-block">wa-button-block</button></view>
+</view>

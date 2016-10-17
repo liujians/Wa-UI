@@ -1,0 +1,12 @@
+<view>
+  <view class="space">input-stacked</view>
+  <view class="wa-input-stacked">
+    <text class="wa-input-label">phoneNumber:</text>
+    <input class="wa-input" placeholder="phoneNumber" value=""/>
+  </view>
+  <view class="space">input-item</view>
+  <view class="wa-input-item">
+    <text class="wa-input-label">password:</text>
+    <input class="wa-input" placeholder="password" value=""/>
+  </view>
+</view>

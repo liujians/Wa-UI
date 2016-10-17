@@ -1,0 +1,10 @@
+<view>
+    <view class="title text-center">button-color</view>
+    <view class="title">button color</view>
+    <view><button class="wa-button wa-button-positive">wa-button-positive</button></view>
+    <view><button class="wa-button wa-button-success">wa-button-success</button></view>
+    <view><button class="wa-button wa-button-info">wa-button-info</button></view>
+    <view><button class="wa-button wa-button-warning">wa-button-warning</button></view>
+    <view><button class="wa-button wa-button-danger">wa-button-danger</button></view>
+    <view><button class="wa-button wa-button-dark">wa-button-dark</button></view>
+</view>
