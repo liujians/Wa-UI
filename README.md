@@ -1,6 +1,11 @@
 # weapp-ui
 针对微信小程序整合的一套UI库
 
+##使用须知
+import引入即可使用，[快速开始](./wiki/get-started)
+
+说明文档请参考[wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
+
 ## 目前样式 ##
 ### 列表
 - 列表&列表项
@@ -24,7 +29,7 @@
 
 ![](./image/show/Gif_wa.gif)
 
-说明文档请参考[wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
+
 
 目前每天更新中...
 
