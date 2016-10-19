@@ -1,4 +1,12 @@
 <view>
+  <view class="title text-center">input</view>
+  <view class="space">input-icon</view>
+  <view class="padding">
+    <view class="wa-input-icon">
+      <text class="icon-left ion-search placeholder-icon"></text>
+      <input class="wa-input" placeholder="Search" value=""/>
+    </view>
+  </view>
   <view class="space">input-stacked</view>
   <view class="wa-input-stacked">
     <text class="wa-input-label">phoneNumber:</text>

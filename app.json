@@ -1,15 +1,17 @@
 {
   "pages":[
+    
     "pages/index/index",
     "pages/general/general",
     "pages/basic/basic",
     "pages/button/button",
     "pages/button-color/button-color",
     "pages/button-icon/button-icon",
-    "pages/input/input",
     "pages/list/list",
     "pages/grid/grid",
     "pages/test/test",        
+    "pages/input/input",
+    
     "pages/start/start"
   ],
   "window":{
