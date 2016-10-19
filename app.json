@@ -3,13 +3,14 @@
     "pages/index/index",
     "pages/general/general",
     "pages/basic/basic",
-    "pages/list/list",
     "pages/button/button",
     "pages/button-color/button-color",
+    "pages/button-icon/button-icon",
     "pages/input/input",
+    "pages/list/list",
     "pages/grid/grid",
-    "pages/start/start",
-    "pages/test/test"
+    "pages/test/test",        
+    "pages/start/start"
   ],
   "window":{
     "backgroundTextStyle":"light",

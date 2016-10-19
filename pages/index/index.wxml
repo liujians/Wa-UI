@@ -14,24 +14,43 @@
 </view>
 <view class="wa-list">
   <navigator url="../general/general" class="wa-item">
+    <text class="icon-left ion-ios-home"></text>
+    <text class="icon-right ion-chevron-right"></text>
     general
   </navigator>
   <navigator url="../basic/basic" class="wa-item">
+    <text class="icon-left ion-ios-settings-strong"></text>
+    <text class="icon-right ion-chevron-right"></text>
     basic
   </navigator>
   <navigator url="../list/list" class="wa-item">
+    <text class="icon-left ion-ios-list"></text>
+    <text class="icon-right ion-chevron-right"></text>
     list
   </navigator>
   <navigator url="../button/button" class="wa-item">
+    <text class="icon-left ion-ios-toggle"></text>
+    <text class="icon-right ion-chevron-right"></text>
     button
   </navigator>
   <navigator url="../button-color/button-color" class="wa-item">
+    <text class="icon-left ion-paintbucket"></text>
+    <text class="icon-right ion-chevron-right"></text>
     button-color
   </navigator>
+  <navigator url="../button-icon/button-icon" class="wa-item">
+    <text class="icon-left ion-navicon"></text>
+    <text class="icon-right ion-chevron-right"></text>
+    button-icon
+  </navigator>
   <navigator url="../input/input" class="wa-item">
+    <text class="icon-left ion-compose"></text>
+    <text class="icon-right ion-chevron-right"></text>
     input
   </navigator>
   <navigator url="../grid/grid" class="wa-item">
+    <text class="icon-left ion-grid"></text>
+    <text class="icon-right ion-chevron-right"></text>
     grid
   </navigator>
 </view>

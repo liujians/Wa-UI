@@ -1,10 +1,14 @@
-# weapp-ui
+# Wa-UI
 针对微信小程序整合的一套UI库
 
 ##使用须知
 import引入即可使用，[快速开始](./wiki/get-started)
 
-说明文档请参考[wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
+Wa-UI说明文档请参考[Wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
+
+###展示
+
+![](https://github.com/liujians/Wa-UI/blob/master/image/show/GIF_wa.gif)
 
 ## 目前样式 ##
 ### 列表
@@ -24,11 +28,6 @@ import引入即可使用，[快速开始](./wiki/get-started)
 ###布局
 
 - row&col网格布局
-
-###展示
-
-![](./image/show/Gif_wa.gif)
-
 
 
 目前每天更新中...

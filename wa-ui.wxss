@@ -1,8 +1,9 @@
-/* wa-ui
+/* Wa-UI
 *  author:liujians
 *  https://github.com/liujians/weapp-ui
 */
 /*general*/
+@import '//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css';
 page{
   height: 100%;
 }
@@ -60,54 +61,82 @@ page view{
   font-size: 16px;
   display: block;
   color: #444;
-  padding:20rpx;
+  padding:10px;
+  height: 40px;
   box-sizing: border-box;
   position:relative;
+  background-color: #fff;
 }
 .wa-item-ava{
-  padding-left:140rpx;
-  min-height: 120rpx;
+  padding-left:60px;
+  min-height: 60px;
 }
 .wa-item-ava .item-img{
   position:absolute;
-  top:20rpx;
-  left: 20rpx;
-  width: 80rpx;
-  height: 80rpx;
+  top:10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
 }
 .wa-item-ava .item-img-round{
   position:absolute;
-  top:20rpx;
-  left: 20rpx;
-  width: 80rpx;
-  height: 80rpx;
+  top:10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 .wa-item-thumbnail-left{
-  padding-left:200rpx;
-  min-height: 200rpx;
+  padding-left:100px;
+  min-height: 100px;
 }
 .wa-item-thumbnail-left .item-img{
   position:absolute;
-  top:20rpx;
-  left: 20rpx;
-  width: 160rpx;
-  height: 160rpx;
+  top:10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
 }
 .wa-item-thumbnail-right{
-  padding-right:200rpx;
-  min-height: 200rpx;
+  padding-right:100px;
+  min-height: 100px;
 }
 .wa-item-thumbnail-right .item-img{
   position:absolute;
-  top:20rpx;
-  right: 20rpx;
-  width: 160rpx;
-  height: 160rpx;
+  top:10px;
+  right: 10px;
+  width: 80px;
+  height: 80px;
 }
 .wa-item:active{
-  background: #eee;
-  color: #444
+  background-color: #e5e5e5;
+}
+.wa-item .icon-left{
+  float: left;
+  padding-right: 5px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.wa-item .icon-right{
+  float: right;
+  padding-left: 5px;
+  font-size: 20px;
+  line-height: 20px;
+  opacity: .4;
+}
+.wa-item-thumbnail-left .icon-right{
+  float: right;
+  padding-left: 5px;
+  font-size: 20px;
+  line-height: 80px;
+  opacity: .4;
+}
+.wa-item-ava .icon-right{
+  float: right;
+  padding-left: 5px;
+  font-size: 20px;
+  line-height: 40px;
+  opacity: .4;
 }
 /*button*/
 .wa-button{
@@ -163,7 +192,7 @@ page view{
     width:100%;
 }
 .wa-button-sm{
-    padding: 0 4px;
+    padding: 0 8px;
     min-width: 90rpx;
     min-height: 28px;
     font-size: 12px;
@@ -177,13 +206,48 @@ page view{
     line-height: 48px;
 }
 .wa-button:active{
+  border-color: #999;
   background: #ccc;
   color: #444
 }
+/*.wa-button-dark:active{
+  background: #333;
+  color: #eee
+}*/
 .wa-button-outline{
     border-color: #b2b2b2;
     background: transparent;
     color: #b2b2b2;
+}
+.wa-button .icon-left{
+  padding-right:8rpx;
+  font-size: 36rpx;
+}
+.wa-button-sm .icon-left{
+  padding-right:5px;
+  font-size: 26rpx
+}
+.wa-button-lg .icon-left{
+    padding-right:5px;
+    font-size: 46rpx
+}
+.wa-button .icon-right{
+  float:right;
+  line-height: 38px;
+  padding-left:5px;
+  font-size: 36rpx;
+}
+.wa-button-sm .icon-right{
+  float:right;
+  line-height: 26px;
+  padding-left:5px;
+  font-size: 22rpx
+}
+.wa-button-lg .icon-right{
+    float:right;
+    line-height: 48px;
+    padding-left:5px;
+    font-size: 46rpx
 }
 /*input*/
 .wa-input{

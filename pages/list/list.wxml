@@ -6,9 +6,21 @@
     </view>
     <view class="space"></view>
     <view class="wa-item">
+      <text class="icon-left ion-home"></text>
+      item
+    </view>
+    <view class="wa-item">
+      <text class="icon-right ion-chevron-right"></text>
+      item
+    </view>
+    <view class="wa-item">
+      item
+    </view>
+    <view class="wa-item">
       item
     </view>
     <view class="wa-item wa-item-ava">
+      <text class="icon-right ion-chevron-right"></text>
       <image class="item-img" src="/image/user.jpg"></image>
       item-ava
     </view>
@@ -17,6 +29,7 @@
       item-ava
     </view>
     <view class="wa-item wa-item-thumbnail-left">
+      <text class="icon-right ion-chevron-right"></text>
       <image class="item-img" src="/image/user.jpg"></image>
       item-thumbnail-left
     </view>
@@ -24,5 +37,6 @@
       <image class="item-img" src="/image/user.jpg"></image>
       item-thumbnail-right
     </view>
+    <view class="space">space</view>
   </view>
 </view>
