@@ -1,5 +1,13 @@
 <scroll-view scroll-y="true" style="height:100%">
-  
+  <!--<radio-group class="radio-group" bindchange="radioChange">
+    <label class="wa-radio">
+      <radio value="{{r.value}}" checked="{{r.checked}}"/>
+      <text class="wa-radio-button"></text>{{r.value}}
+    </label>
+    <label class="radio">
+      <radio value="{{r2.value}}" checked="{{r2.checked}}"/>{{r2.value}}
+    </label>
+  </radio-group>-->
   <view class="wa-list">
     <view class="wa-item">
       item

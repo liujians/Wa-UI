@@ -1,6 +1,14 @@
 Page({
   data:{
     // text:"这是一个页面"
+    r:{
+      value:"r1",
+      checked:true
+    },
+    r2:{
+      value:"r2",
+      checked:false
+    }
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
@@ -16,5 +24,8 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+  },
+  radioChange:function(e){
+    console.log('radio发生change事件，携带value值为：', e.detail.value)
   }
 })
