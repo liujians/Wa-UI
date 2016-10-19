@@ -13,12 +13,6 @@
       <text class="icon-right ion-chevron-right"></text>
       item
     </view>
-    <view class="wa-item">
-      item
-    </view>
-    <view class="wa-item">
-      item
-    </view>
     <view class="wa-item wa-item-ava">
       <text class="icon-right ion-chevron-right"></text>
       <image class="item-img" src="/image/user.jpg"></image>
