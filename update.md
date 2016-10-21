@@ -1,0 +1,1 @@
+- 2016-10-21 background提取，替代之前的button颜色，变成可复用的wa-[background]，加入wa-mark类，加入了pull-right类
