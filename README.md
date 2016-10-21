@@ -8,7 +8,13 @@ Wa-UI说明文档请参考[Wiki](https://github.com/liujians/weapp-ui/wiki "wiki
 
 ###展示
 
-![](https://github.com/liujians/Wa-UI/blob/master/image/show/GIF_wa.gif)
+栅格（想要几几分？）
+
+![](https://github.com/liujians/Wa-UI/blob/master/image/show/grid.png)
+
+列表
+
+![](https://github.com/liujians/Wa-UI/blob/master/image/show/list.png)
 
 ## 目前样式 ##
 ### 列表
