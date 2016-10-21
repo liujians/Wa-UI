@@ -325,61 +325,51 @@ page view{
 .wa-col{
 	flex:1;
   display: block;
-  padding: 10rpx;
   width:100%;
   box-sizing: border-box;
 }
 .wa-col-10{
   flex: 0 0 10%;
-  padding: 10rpx;
   max-width: 10%;
   box-sizing: border-box;
 }
 .wa-col-20{
   flex: 0 0 20%;
-  padding: 10rpx;
   max-width: 20%;
   box-sizing: border-box;
 }
 .wa-col-25{
-  flex: 0 0 20%;
-  padding: 10rpx;
-  max-width: 20%;
+  flex: 0 0 25%;
+  max-width: 25%;
   box-sizing: border-box;
 }
 .wa-col-33{
   flex: 0 0 33%;
-  padding: 10rpx;
   max-width: 33%;
   box-sizing: border-box;
 }
 .wa-col-50{
   flex: 0 0 50%;
-  padding: 10rpx;
   max-width: 50%;
   box-sizing: border-box;
 }
 .wa-col-66{
   flex: 0 0 66%;
-  padding: 10rpx;
   max-width: 66%;
   box-sizing: border-box;
 }
 .wa-col-75{
   flex: 0 0 75%;
-  padding: 10rpx;
   max-width: 75%;
   box-sizing: border-box;
 }
 .wa-col-80{
   flex: 0 0 80%;
-  padding: 10rpx;
   max-width: 80%;
   box-sizing: border-box;
 }
 .wa-col-90{
   flex: 0 0 90%;
-  padding: 10rpx;
   max-width: 90%;
   box-sizing: border-box;
 }
