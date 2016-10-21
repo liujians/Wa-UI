@@ -54,32 +54,32 @@ page view{
   margin-left: 5px;
 }
 /*background*/
-.wa-primary{
+page .wa-primary{
     border-color: #0c63ee;
     background-color: #387ef5;
     color: #fff;
 }
-.wa-info {
+page .wa-info {
     border-color: #0a9ec7;
     background-color: #11c1f3;
     color: #fff;
 }
-.wa-success {
+page .wa-success {
     border-color: #28a54c;
     background-color: #33cd5f;
     color: #fff;
 }
-.wa-warning {
+page .wa-warning {
     border-color: #e6b400;
     background-color: #ffc900;
     color: #fff;
 }
-.wa-danger {
+page .wa-danger {
     border-color: #e42012;
     background-color: #ef473a;
     color: #fff;
 }
-.wa-dark {
+page .wa-dark {
     border-color: #111;
     background-color: #444;
     color: #fff;

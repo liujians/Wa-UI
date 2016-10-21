@@ -3,5 +3,5 @@
     <view><button class="wa-button wa-button-sm"><text class="icon-right ion-chevron-right"></text>wa-button-sm</button></view>
     <view><button class="wa-button"><text class="icon-left ion-home"></text>wa-button</button></view>
     <view><button class="wa-button wa-button-lg"><text class="icon-left ion-home"></text>wa-button-lg</button></view>
-    <view><button class="wa-button wa-button-positive"><text class="icon-left ion-heart"></text>wa-button-lg</button></view>
+    <view><button class="wa-button wa-primary"><text class="icon-left ion-heart"></text>wa-button-lg</button></view>
 </scroll-view>

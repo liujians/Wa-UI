@@ -1,10 +1,17 @@
 <view>
-    <view class="title text-center">button-color</view>
-    <view class="title">button color</view>
+    <view class="title text-center">background-color</view>
+    <view class="title">background color</view>
     <view><button class="wa-button wa-primary">wa-button-primary</button></view>
     <view><button class="wa-button wa-success">wa-button-success</button></view>
     <view><button class="wa-button wa-info">wa-button-info</button></view>
     <view><button class="wa-button wa-warning">wa-button-warning</button></view>
     <view><button class="wa-button wa-danger">wa-button-danger</button></view>
     <view><button class="wa-button wa-dark">wa-button-dark</button></view>
+    <view class="wa-list">
+        <view class="wa-item wa-warning">warning</view>
+        <view class="wa-item wa-danger">danger</view>
+        <view class="wa-item wa-info">info</view>
+        <view class="wa-item wa-success">success</view>
+        <view class="wa-item wa-dark">dark</view>
+    </view>
 </view>

@@ -2,6 +2,6 @@
   <view class="title text-center">get started</view>
   <view>下载：https://github.com/liujians/Wa-UI</view>
   <view>将wa-ui.wxss引入</view>
-  <view class="padding"><image src="/image/show/get_started.png" style="width:100%;height:90px"></image></view>
+  <view class="padding"><image src="/image/show/get_started.png" style="width:100%;height:80px" mode="aspectFit"></image></view>
   
 </view>

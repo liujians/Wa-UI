@@ -33,10 +33,10 @@
     <text class="icon-right ion-chevron-right"></text>
     button
   </navigator>
-  <navigator url="../button-color/button-color" class="wa-item">
+  <navigator url="../background-color/background-color" class="wa-item">
     <text class="icon-left ion-paintbucket"></text>
     <text class="icon-right ion-chevron-right"></text>
-    button-color
+    background-color
   </navigator>
   <navigator url="../button-icon/button-icon" class="wa-item">
     <text class="icon-left ion-navicon"></text>
@@ -52,6 +52,11 @@
     <text class="icon-left ion-grid"></text>
     <text class="icon-right ion-chevron-right"></text>
     grid
+  </navigator>
+  <navigator url="../mark/mark" class="wa-item">
+    <text class="icon-left ion-ios-star"></text>
+    <text class="icon-right ion-chevron-right"></text>
+    mark
   </navigator>
 </view>
 </scroll-view>

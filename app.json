@@ -5,12 +5,13 @@
     "pages/general/general",
     "pages/basic/basic",
     "pages/button/button",
-    "pages/button-color/button-color",
+    "pages/background-color/background-color",
     "pages/button-icon/button-icon",
     "pages/list/list",
     "pages/grid/grid",
-    "pages/test/test",        
     "pages/input/input",
+    "pages/mark/mark",
+    "pages/test/test",        
     
     "pages/start/start"
   ],

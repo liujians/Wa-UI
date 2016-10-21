@@ -1,0 +1,28 @@
+<view class="wa-list">
+    <view class="title text-center">mark</view>
+    <view class="wa-item">
+      <text class="pull-right ion-chevron-right"></text>
+      <text class="pull-right wa-mark wa-primary">11</text>
+      item
+    </view>
+    <view class="wa-item">
+      <text class="pull-right wa-mark wa-success">11</text>
+      item
+    </view>
+    <view class="wa-item">
+      <text class="pull-right wa-mark wa-info">11</text>
+      item
+    </view>
+    <view class="wa-item">
+      <text class="pull-right wa-mark wa-warning">11</text>
+      item
+    </view>
+    <view class="wa-item">
+      <text class="pull-right wa-mark wa-danger">11</text>
+      item
+    </view>
+    <view class="wa-item">
+      <text class="pull-right wa-mark wa-dark">11</text>
+      item
+    </view>
+</view>
