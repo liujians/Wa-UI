@@ -51,33 +51,3 @@ Wa-UI说明文档请参考[Wiki](https://github.com/liujians/weapp-ui/wiki "wiki
 [MIT](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2016 liujians
-
-	<view class="wa-list">
-	    <view class="wa-item">
-	      <text class="pull-right ion-chevron-right"></text>
-	      <text class="pull-right wa-mark wa-primary">11</text>
-	      item
-	    </view>
-	    <view class="wa-item">
-	      <text class="pull-right wa-mark wa-success">11</text>
-	      item
-	    </view>
-	    <view class="wa-item">
-	      <text class="pull-right wa-mark wa-info">11</text>
-	      item
-	    </view>
-	    <view class="wa-item">
-	      <text class="pull-right wa-mark wa-warning">11</text>
-	      item
-	    </view>
-	    <view class="wa-item">
-	      <text class="pull-right wa-mark wa-danger">11</text>
-	      item
-	    </view>
-	    <view class="wa-item">
-	      <text class="pull-right wa-mark wa-dark">11</text>
-	      item
-	    </view>
-	</view>
-
-
