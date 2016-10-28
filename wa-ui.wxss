@@ -3,7 +3,7 @@
 *  https://github.com/liujians/weapp-ui
 */
 /*general*/
-@import '//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css';
+/*@import '//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css';*/
 page{
   height: 100%;
 }
