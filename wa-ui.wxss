@@ -1,17 +1,16 @@
-/* Wa-UI  V 0.7.4
+/* Wa-UI  V 0.7.5
 *  author:liujians
 *  https://github.com/liujians/weapp-ui
 */
 /*general*/
-/*@import '//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css';*/
 page{
   height: 100%;
 }
-page text{
+/*page text{
   font-size: 14px;
   line-height: 20px;
   font-family: "Helvetica Neue",Helvetica,'microsoft yahei ui', 'microsoft yahei','simhei',Arial,sans-serif
-}
+}*/
 page view{
   font-size: 14px;
   line-height: 20px;
