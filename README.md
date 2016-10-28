@@ -6,6 +6,7 @@ import引入即可使用，[快速开始](./wiki/get-started)
 
 Wa-UI说明文档请参考[Wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
 
+IDE更新2800版本之后icon暂时不能用了，栅格和列表可以继续使用
 ###展示
 
 栅格（想要几几分？）
@@ -39,7 +40,7 @@ Wa-UI说明文档请参考[Wiki](https://github.com/liujians/weapp-ui/wiki "wiki
 - row&col基于flex的网格布局
 
 
-目前每天更新中...
+不断更新中
 
 欢迎一起学习交流
 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9bcf9f7be59b471456c1feec466dab4d54da7ab35c834b8e821ec17177fb33b3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="前端群居所" title="前端群居所"></a>
