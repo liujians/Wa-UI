@@ -1,0 +1,20 @@
+<view>
+  <view style="width:100%;">
+    <view class="wa-grid text-center">
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-33 border-basic">three</view>
+      <view class="wa-grid-50 border-basic">50</view>
+      <view class="wa-grid-50 border-basic">50</view>
+      <view class="wa-grid-50 border-basic">50</view>
+      <view class="wa-grid-50 border-basic">50</view>
+    </view>
+  </view>
+  <view>这是容器下面的内容</view>
+</view>

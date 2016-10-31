@@ -41,7 +41,7 @@
   <navigator url="../button-icon/button-icon" class="wa-item">
     <text class="icon-left ion-navicon"></text>
     <text class="icon-right ion-chevron-right"></text>
-    button-icon
+    button-icon(暂时关闭)
   </navigator>
   <navigator url="../input/input" class="wa-item">
     <text class="icon-left ion-compose"></text>
@@ -52,6 +52,11 @@
     <text class="icon-left ion-grid"></text>
     <text class="icon-right ion-chevron-right"></text>
     grid
+  </navigator>
+  <navigator url="../grid-view/grid-view" class="wa-item">
+    <text class="icon-left ion-grid"></text>
+    <text class="icon-right ion-chevron-right"></text>
+    grid-view
   </navigator>
   <navigator url="../mark/mark" class="wa-item">
     <text class="icon-left ion-ios-star"></text>

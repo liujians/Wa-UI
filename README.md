@@ -12,6 +12,7 @@ IDE更新2800版本之后icon暂时不能用了，栅格和列表可以继续使
 栅格（想要几几分？）
 
 ![](https://github.com/liujians/Wa-UI/blob/master/image/show/grid.png)
+![](https://github.com/liujians/Wa-UI/blob/master/image/show/grid-view.png)
 
 列表
 
@@ -23,7 +24,7 @@ IDE更新2800版本之后icon暂时不能用了，栅格和列表可以继续使
 - 带头像的列表项
 - 带缩略图的列表项
 - 列表间隔空间
-- 列表icon
+- 列表icon（icon暂停使用）
 
 ### 表单
 
@@ -32,13 +33,13 @@ IDE更新2800版本之后icon暂时不能用了，栅格和列表可以继续使
 - input默认样式
 - input横向
 - input堆叠
-- 带icon的input
-- 带icon的button
+- 带icon的input（icon暂停使用）
+- 带icon的button（icon暂停使用）
 
 ###布局
 
 - row&col基于flex的网格布局
-
+- grid-view 基于float的九宫格布局
 
 不断更新中
 

@@ -11,6 +11,7 @@
     "pages/grid/grid",
     "pages/input/input",
     "pages/mark/mark",
+    "pages/grid-view/grid-view",
     "pages/test/test",        
     
     "pages/start/start"

@@ -1,4 +1,4 @@
-/* Wa-UI  V 0.7.5
+/* Wa-UI  V 0.7.6
 *  author:liujians
 *  https://github.com/liujians/weapp-ui
 */
@@ -6,14 +6,12 @@
 page{
   height: 100%;
 }
-/*page text{
+page text{
   font-size: 14px;
-  line-height: 20px;
   font-family: "Helvetica Neue",Helvetica,'microsoft yahei ui', 'microsoft yahei','simhei',Arial,sans-serif
-}*/
+}
 page view{
   font-size: 14px;
-  line-height: 20px;
   font-family: "Helvetica Neue",Helvetica,'microsoft yahei ui', 'microsoft yahei','simhei',Arial,sans-serif
 }
 /*basic*/
@@ -386,5 +384,15 @@ page .wa-dark {
 .wa-col-90{
   flex: 0 0 90%;
   max-width: 90%;
+  box-sizing: border-box;
+}
+/*grid-view*/
+.wa-grid{
+  width:100%;
+  overflow: hidden;
+}
+.wa-grid-item{
+  float: left;
+  width: 33.3%;
   box-sizing: border-box;
 }
