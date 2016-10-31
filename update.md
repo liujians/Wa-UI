@@ -1,1 +1,3 @@
-- 2016-10-21 background提取，替代之前的button颜色，变成可复用的wa-[background]，加入wa-mark类，加入了pull-right类
+- 0.7.4 background提取，替代之前的button颜色，变成可复用的wa-[background]，加入wa-mark类，加入了pull-right类
+- 0.7.5 修改版本更新界面的bug，删除icon相关
+- 0.7.6 为更好的支持wx:for加入grid-view布局方式
