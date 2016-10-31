@@ -1,17 +1,16 @@
-/* Wa-UI
+/* Wa-UI  V 0.7.5
 *  author:liujians
 *  https://github.com/liujians/weapp-ui
 */
 /*general*/
-@import '//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css';
 page{
   height: 100%;
 }
-page text{
+/*page text{
   font-size: 14px;
   line-height: 20px;
   font-family: "Helvetica Neue",Helvetica,'microsoft yahei ui', 'microsoft yahei','simhei',Arial,sans-serif
-}
+}*/
 page view{
   font-size: 14px;
   line-height: 20px;
@@ -48,6 +47,41 @@ page view{
   border: 1px solid #ddd;
   margin: -1px 0;
   padding:20rpx
+}
+.pull-right{
+  float: right;
+  margin-left: 5px;
+}
+/*background*/
+page .wa-primary{
+    border-color: #0c63ee;
+    background-color: #387ef5;
+    color: #fff;
+}
+page .wa-info {
+    border-color: #0a9ec7;
+    background-color: #11c1f3;
+    color: #fff;
+}
+page .wa-success {
+    border-color: #28a54c;
+    background-color: #33cd5f;
+    color: #fff;
+}
+page .wa-warning {
+    border-color: #e6b400;
+    background-color: #ffc900;
+    color: #fff;
+}
+page .wa-danger {
+    border-color: #e42012;
+    background-color: #ef473a;
+    color: #fff;
+}
+page .wa-dark {
+    border-color: #111;
+    background-color: #444;
+    color: #fff;
 }
 /*list*/
 .wa-list{
@@ -160,36 +194,7 @@ page view{
     font-size: 16px;
     line-height: 38px;
 }
-.wa-button-positive{
-    border-color: #0c63ee;
-    background-color: #387ef5;
-    color: #fff;
-}
-.wa-button-info {
-    border-color: #0a9ec7;
-    background-color: #11c1f3;
-    color: #fff;
-}
-.wa-button-success {
-    border-color: #28a54c;
-    background-color: #33cd5f;
-    color: #fff;
-}
-.wa-button-warning {
-    border-color: #e6b400;
-    background-color: #ffc900;
-    color: #fff;
-}
-.wa-button-danger {
-    border-color: #e42012;
-    background-color: #ef473a;
-    color: #fff;
-}
-.wa-button-dark {
-    border-color: #111;
-    background-color: #444;
-    color: #fff;
-}
+
 .wa-button-block{
     width:100%;
 }
@@ -315,6 +320,16 @@ page view{
 /*.wa-radio radio:checked:before{
   background: blue;
 }*/
+/*mark*/
+.wa-mark{
+  border-radius: 20px;
+  padding: 2px 6px;
+  font-size: 12px;
+  
+}
+.wa-item .wa-mark{
+  margin-top: -2px;
+}
 /*grid*/
 .wa-row{
 	display: flex;
@@ -325,61 +340,51 @@ page view{
 .wa-col{
 	flex:1;
   display: block;
-  padding: 10rpx;
   width:100%;
   box-sizing: border-box;
 }
 .wa-col-10{
   flex: 0 0 10%;
-  padding: 10rpx;
   max-width: 10%;
   box-sizing: border-box;
 }
 .wa-col-20{
   flex: 0 0 20%;
-  padding: 10rpx;
   max-width: 20%;
   box-sizing: border-box;
 }
 .wa-col-25{
-  flex: 0 0 20%;
-  padding: 10rpx;
-  max-width: 20%;
+  flex: 0 0 25%;
+  max-width: 25%;
   box-sizing: border-box;
 }
 .wa-col-33{
   flex: 0 0 33%;
-  padding: 10rpx;
   max-width: 33%;
   box-sizing: border-box;
 }
 .wa-col-50{
   flex: 0 0 50%;
-  padding: 10rpx;
   max-width: 50%;
   box-sizing: border-box;
 }
 .wa-col-66{
   flex: 0 0 66%;
-  padding: 10rpx;
   max-width: 66%;
   box-sizing: border-box;
 }
 .wa-col-75{
   flex: 0 0 75%;
-  padding: 10rpx;
   max-width: 75%;
   box-sizing: border-box;
 }
 .wa-col-80{
   flex: 0 0 80%;
-  padding: 10rpx;
   max-width: 80%;
   box-sizing: border-box;
 }
 .wa-col-90{
   flex: 0 0 90%;
-  padding: 10rpx;
   max-width: 90%;
   box-sizing: border-box;
 }
