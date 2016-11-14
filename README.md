@@ -2,7 +2,7 @@
 针对微信小程序整合的一套UI库
 
 ##使用须知
-import引入即可使用，[快速开始](./wiki/get-started)
+import引入即可使用，[快速开始](./wiki/get%20started)
 
 Wa-UI说明文档请参考[Wiki](https://github.com/liujians/weapp-ui/wiki "wiki")
 
