@@ -1,5 +1,5 @@
 # Wa-UI
-针对微信小程序整合的一套UI库
+针对微信小程序整合的一套UI库 by liujians [http://liujians.me](http://liujians.me)
 
 ##使用须知
 import引入即可使用，[快速开始](https://github.com/liujians/wa-ui/wiki/get%20started)
