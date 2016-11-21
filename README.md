@@ -1,12 +1,16 @@
 # Wa-UI
 针对微信小程序整合的一套UI库 by liujians [http://liujians.me](http://liujians.me)
 
+微信小程序组件如此之丰富、你还需要重量级的组件库来冗余代码吗？
+
+所以只需要Wa-UI这个轻量级的库很快捷的做布局就可以了
+
 ##使用须知
 import引入即可使用，[快速开始](https://github.com/liujians/wa-ui/wiki/get%20started)
 
 Wa-UI说明文档请参考[Wiki](https://github.com/liujians/wa-ui/wiki "wiki")
 
-IDE更新2800版本之后icon暂时不能用了，栅格和列表可以继续使用
+IDE更新2800版本之后外部字体icon暂时不能用了，可以使用官方icon和图片替代
 ###展示
 
 栅格（想要几几分？）
