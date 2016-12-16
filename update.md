@@ -1,3 +1,4 @@
 - 0.7.4 background提取，替代之前的button颜色，变成可复用的wa-[background]，加入wa-mark类，加入了pull-right类
 - 0.7.5 修改版本更新界面的bug，删除icon相关
 - 0.7.6 为更好的支持wx:for加入grid-view布局方式
+- 0.7.7 加入了textSl做单行文字省略,去掉title的默认title，推荐组合使用，去掉pull-right的margin、可以自己拓展，去掉列表项的默认白色背景色、加入wa-grid-33和wa-grid-50两种布局

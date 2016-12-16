@@ -1,4 +1,4 @@
-/* Wa-UI  V 0.7.6
+/* Wa-UI  V 0.7.7
 *  author:liujians
 *  https://github.com/liujians/weapp-ui
 */
@@ -24,10 +24,14 @@ page view{
 .text-left{
   text-align: left
 }
+.textSl{
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
 .title{
-    padding:20rpx;
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 36rpx;
+  font-weight: bold;
 }
 .border-basic{
   border: 1px solid #ddd
@@ -48,7 +52,6 @@ page view{
 }
 .pull-right{
   float: right;
-  margin-left: 5px;
 }
 /*background*/
 page .wa-primary{
@@ -97,7 +100,6 @@ page .wa-dark {
   height: 40px;
   box-sizing: border-box;
   position:relative;
-  background-color: #fff;
 }
 .wa-item-ava{
   padding-left:60px;
@@ -330,13 +332,13 @@ page .wa-dark {
 }
 /*grid*/
 .wa-row{
-	display: flex;
+  display: flex;
   padding: 10rpx;
   width: 100%;
   box-sizing: border-box
 }
 .wa-col{
-	flex:1;
+  flex:1;
   display: block;
   width:100%;
   box-sizing: border-box;
@@ -391,8 +393,13 @@ page .wa-dark {
   width:100%;
   overflow: hidden;
 }
-.wa-grid-item{
+.wa-grid-33{
   float: left;
   width: 33.3%;
+  box-sizing: border-box;
+}
+.wa-grid-50{
+  float: left;
+  width: 50%;
   box-sizing: border-box;
 }
