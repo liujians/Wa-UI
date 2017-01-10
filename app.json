@@ -23,9 +23,6 @@
     "navigationBarTitleText": "weapp-ui",
     "navigationBarTextStyle":"white"
   },
-  "tabBar": {
-    
-  },
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
